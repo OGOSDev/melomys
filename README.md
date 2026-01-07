@@ -119,5 +119,5 @@ Yes
 <details>
   <summary>Any future ideas?</summary>
   
-The goal is to take Melomys OS to the next level of being a full OS. While I can't list all planned features right now, I aim to continue the documentation that I paused earlier—explaining the system as if developing it from scratch, to make it clear and understandable for everyone.
+The goal is to take Melomys OS to the next level of being a full OS. While I can't list all planned features right now, I aim to continue the documentation that I paused earlier explaining the system as if developing it from scratch, to make it clear and understandable for everyone.
 </details>
