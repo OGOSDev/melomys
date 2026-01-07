@@ -94,37 +94,26 @@ No. modern compilers and languages handle most tasks more efficiently and safely
 <details>
   <summary>Why use assembly at all?</summary>
   
-Using assembly gives insight into exactly how a CPU, memory and hardware interact. Even if higher level languages can accomplish the same tasks more easily, writing in assembly exposes the mechanics behind every instruction—essential for understanding low-level systems.
+Learning assembly gives you a better understanding of how computers work. This knowledge makes it easier to work with mid and higher level languages and the understanding you gain are valuable for any developer, not just those writing lowlevel code.
 </details>
 
-<details>
-  <summary>Who is this project for?</summary>
-  
-Beginners who want to see how modern PCs boot and execute code, and intermediate developers who want a transparent, inspectable reference for low-level x86-64 programming.
-</details>
-
-<details>
-  <summary>Do I need a specific environment to run this OS?</summary>
-  
-No special hardware is required. You can build and run Melomys OS on any Linux system using standard tools like NASM, QEMU, and ISO utilities.
-</details>
 
 <details>
   <summary>Can I use this OS for real-world applications?</summary>
   
-Not really. Melomys OS is an educational platform. It demonstrates concepts, but it is not optimized or secure enough for production use.
+Not really(at least for now). Melomys OS is an educational project designed to demonstrate low level concepts, but it is far from being a fully usable operating system.
 </details>
 
 <details>
   <summary>How does this help me learn OS development?</summary>
   
-By reading the heavily commented source, following the step-by-step architecture, and experimenting with the code, you gain practical understanding of UEFI booting, 64-bit kernels, paging, SMP, and hardware initialization—all concepts that most tutorials skip or oversimplify.
+By reading the heavily commented source and experimenting with the code, you will gain practical understanding of UEFI, 64 bit kernels, paging, SMP and hardware initialization all concepts that most tutorials skip or oversimplify.
 </details>
 
 <details>
   <summary>Do you continue developing it?</summary>
   
-Yes, development is ongoing. The OS will continue to evolve as a learning resource and reference.
+Yes
 </details>
 
 <details>
