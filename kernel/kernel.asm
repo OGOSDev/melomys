@@ -71,5 +71,5 @@ serial_write:
 
 section .rodata
 
-done_msg	db 13, 10, "[+] DONE: reached dummy kernel.", 13, 10, 0
+done_msg	db 13, 10, "[+] DONE: reached the kernel.", 13, 10, 0
 
