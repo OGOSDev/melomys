@@ -1,4 +1,4 @@
-; From baremetal os by Return Infinity
+; From Baremetal OS by Return Infinity
 
 init_smp:
 	; Check if we want the AP's to be enabled.. if not then skip to end
