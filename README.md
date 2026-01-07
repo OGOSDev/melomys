@@ -26,13 +26,13 @@ Before building Melomys OS, you need a few basic tools to assemble code and pack
 - xorriso and mtools (for creating EFI System Partitions and ISOs)  
 - git (to clone the repository)  
 
-**On Arch Linux**, install the required packages with:
+**On arch linux**:
 
 ```bash
 sudo pacman -S git nasm qemu-desktop xorriso mtools
 ````
 
-**On Debian, Ubuntu, or Linux Mint**, update your package lists and install the tools:
+**On debian, ubuntu or linux mint**:
 
 ```bash
 sudo apt update
@@ -54,7 +54,7 @@ cd melomys
 
 ### Building and Running
 
-* To build and run the OS in QEMU:
+* To build and run the OS:
 
 ```bash
 make all
@@ -66,7 +66,7 @@ make all
 make build
 ```
 
-* To run an existing iso in QEMU:
+* To run an existing iso:
 
 ```bash
 make run
@@ -77,9 +77,3 @@ make run
 ```bash
 make clean
 ```
-
-The build system is simple, fast, and fully transparent, making it easy to follow each step from raw assembly to a bootable operating system.
-
-```
-
-
