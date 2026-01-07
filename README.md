@@ -13,7 +13,7 @@ Melomys OS is an educational and hobby x86-64 operating system, designed not to 
 - GDT and IDT  
 - Linear Framebuffer Graphics  
 
----
+
 
 ## Build Instructions
 
@@ -22,9 +22,9 @@ Melomys OS is an educational and hobby x86-64 operating system, designed not to 
 Before building Melomys OS, you need a few basic tools to assemble code and package a UEFI-compliant ISO:
 
 - NASM (assembler)  
-- QEMU (emulator for testing)  
-- xorriso and mtools (for creating EFI System Partitions and ISOs)  
-- git (to clone the repository)  
+- QEMU (emulator)  
+- xorriso and mtools (for creating EFI system partitions and iso)  
+- git (to clone repo)  
 
 **On arch linux**:
 
@@ -39,7 +39,7 @@ sudo apt update
 sudo apt install git nasm qemu-system-x86 xorriso mtools
 ```
 
----
+
 
 ### Clone the Repository
 
@@ -50,7 +50,7 @@ git clone https://github.com/OGOSDev/melomys.git
 cd melomys
 ```
 
----
+
 
 ### Building and Running
 
