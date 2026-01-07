@@ -3,7 +3,6 @@
 
 Melomys OS is an educational and hobby x86-64 operating system, designed not to be the fastest or the smallest, but to serve as a learning resource for newcomers and a point of reference for more experienced developers.
 
-Copyright (C) 2007-2017 Return Infinity
 ### Features
 
 - Memory Management and Paging  
