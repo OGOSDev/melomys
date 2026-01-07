@@ -72,7 +72,7 @@ make build
 make run
 ```
 
-* To clean all generated binaries and start fresh:
+* To clean all generated binaries:
 
 ```bash
 make clean
