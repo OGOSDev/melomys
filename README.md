@@ -46,7 +46,7 @@ sudo apt install git nasm qemu-system-x86 xorriso mtools
 Clone the project to your local machine and enter the folder:
 
 ```bash
-git clone https://github.com/OGOSDev/melomys.git
+git clone https://github.com/fictiouss/melomys.git
 cd melomys
 ```
 
